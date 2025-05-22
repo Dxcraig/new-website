@@ -11,18 +11,46 @@ import { texts } from "../../utils/texts";
 import Divider from "./../../components/common/Divider";
 import profile from "./../../assets/svg/contact.svg";
 import { Button, FormGroup, Input, Label, TextArea } from "./components/style";
-import { ValidationError, useForm } from "@formspree/react";
+import { ValidationError } from "@formspree/react";
 import Toast from "./components/toast";
 import Loading from "../../components/common/Loading";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import api from "../../services/api";
 
 const Contact = ({ language }) => {
   const desktop = useMediaQuery("(min-width: 1019px)");
-  const [state, handleSubmit] = useForm("xwkgjbpr");
+  const [state, setState] = useState(
+    {
+      succeeded: false,
+      errors: null,
+      submitting: false,
+    },
+    () => {
+      setState({ ...state, submitting: true });
+    }
+  );
 
-  if (state.succeeded) {
-    document.getElementById("form").reset();
-  }
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setState({ ...state, submitting: true });
+    const form = event.target;
+
+    const data = {
+      name: form.name.value,
+      email: form.email.value,
+      message: form.message.value,
+    };
+
+    const response = await api.sendMessage(data);
+
+    if (response) {
+      setState({ ...state, succeeded: true, submitting: false });
+      form.reset();
+    } else {
+      setState({ ...state, errors: true, submitting: false });
+    }
+  };
 
   return (
     <SceneLayout
