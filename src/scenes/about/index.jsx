@@ -60,6 +60,10 @@ const About = ({ language, selectedPage }) => {
           {texts[language].about.text2}
         </p>
 
+        <p style={{ marginTop: "1rem" }}>
+          {texts[language].about.techIntro}
+        </p>
+
         <Row
           justify="flex-start"
           style={{

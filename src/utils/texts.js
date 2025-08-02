@@ -10,7 +10,7 @@ export const texts = {
       cv: ptcv
     },
     landing: {
-      subtitle: "Desenvolvedora Full Stack.",
+      subtitle: "Aspirante a Desenvolvedora Backend.",
       contact: "Fale Comigo",
       talk: "Vamos conversar.",
     },
@@ -25,12 +25,13 @@ export const texts = {
       title: "<sobre/>",
       text: "Olá, eu sou Magdalene Matey. Atualmente estou estudando desenvolvimento web backend, construindo habilidades em programação server-side e gerenciamento de banco de dados. Também estou cursando ciências biológicas, o que me dá uma mentalidade analítica única e experiência com resolução de problemas complexos. Além disso, trago perspectivas frescas dos meus estudos interdisciplinares que me ajudam a abordar desafios técnicos de múltiplos ângulos.",
       text2: "Minhas principais forças são resolução lógica de problemas, atenção aos detalhes e adaptabilidade a novas tecnologias. O que me diferencia é minha formação científica combinada com treinamento técnico - entendo tanto a abordagem metódica necessária para pesquisa quanto o pensamento sistemático exigido para código limpo e eficiente. Trago valor imediato oferecendo uma base sólida em pensamento analítico e um entusiasmo genuíno por aprender novas tecnologias rapidamente, o que significa que posso contribuir para projetos enquanto cresço continuamente minhas habilidades sem exigir supervisão extensa.",
+      techIntro: "Aqui estão algumas tecnologias com as quais estou familiarizada:",
       text3: "Atualmente estou buscando oportunidades de desenvolvimento backend de nível iniciante ou estágios onde possa aplicar minhas habilidades técnicas em crescimento. Adoraria discutir como minha formação única e vontade de aprender poderiam beneficiar sua equipe de desenvolvimento. Deixe-me mostrar como rigor científico encontra excelência em codificação.",
       article: articlePt
     },
     skills: {
       title: "<habilidades/>",
-      text: "Desde o início da minha jornada como desenvolvedora, aprimorei minhas soft skills, sempre buscando ser uma profissional melhor.",
+      text: "Ao começar minha jornada no desenvolvimento backend, estou focada em construir tanto habilidades técnicas quanto fundamentos profissionais.",
       1: {
         title: "aprendizado contínuo",
         text: "A tecnologia nunca para de se atualizar, é por isto que aqueles que trabalham com tecnologia não devem parar de se atualizar também.",
@@ -62,7 +63,7 @@ export const texts = {
       cv: encv
     },
     landing: {
-      subtitle: "Full Stack Developer.",
+      subtitle: "Aspiring Backend Developer.",
       contact: "Contact Me",
       talk: "Let's talk.",
     },
@@ -77,12 +78,13 @@ export const texts = {
       title: "<about/>",
       text: "Hi, I'm Magdalene Matey. I'm currently studying backend web development, building skills in server-side programming and database management. I'm also pursuing biological sciences, which gives me a unique analytical mindset and experience with complex problem-solving. Additionally, I bring fresh perspectives from my interdisciplinary studies that help me approach technical challenges from multiple angles.",
       text2: "My core strengths are logical problem-solving, attention to detail, and adaptability to new technologies. What sets me apart is my scientific background combined with technical training - I understand both the methodical approach needed for research and the systematic thinking required for clean, efficient code. I bring immediate value by offering a strong foundation in analytical thinking and a genuine enthusiasm for learning new technologies quickly, which means I can contribute to projects while continuously growing my skills without requiring extensive oversight.",
+      techIntro: "Here are some technologies I'm familiar with:",
       text3: "I'm currently seeking entry-level backend development opportunities or internships where I can apply my growing technical skills. I'd love to discuss how my unique background and eagerness to learn could benefit your development team. Let me show you how scientific rigor meets coding excellence.",
       article: articlePt
     },
     skills: {
       title: "<skills/>",
-      text: `Since the beginning of my journey as a developer, I've improved my soft skills, always seeking to be a better professional. `,
+      text: `As I begin my journey into backend development, I'm focused on building both technical skills and professional foundations. `,
       1: {
         title: "non-stop learning",
         text: "Technology never stops updating, that's why those who work with technology should not stop updating themselves either.",
