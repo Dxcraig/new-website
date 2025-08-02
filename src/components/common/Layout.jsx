@@ -58,9 +58,23 @@ const RightSide = styled.div`
 `;
 
 const RightSideContent = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   img {
     position: relative;
     height: 600px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+    }
   }
 
   @media screen and (min-width: 1060px) {
@@ -70,12 +84,14 @@ const RightSideContent = styled.div`
 
     img {
       max-height: 600px;
+      max-width: 400px;
     }
   }
 
   @media screen and (min-width: 481px) and (max-width: 768px) {
     img {
       height: 500px;
+      max-width: 350px;
     }
   }
 
@@ -84,6 +100,7 @@ const RightSideContent = styled.div`
       margin-top: 1rem;
       width: 286px;
       height: 281.6px;
+      border-radius: 15px;
     }
   }
 `;
@@ -106,6 +123,79 @@ const LeftSide = styled.div`
   }
 `;
 
+// Alternative circular profile image styling
+const CircularProfileContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border: 4px solid ${colors.purple}20;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+`;
+
+// Contact section image styling - increased size
+const ContactImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  img {
+    height: 500px;
+    width: auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    img {
+      height: 400px;
+      max-width: 320px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    img {
+      height: 320px;
+      max-width: 260px;
+      border-radius: 15px;
+    }
+  }
+`;
+
 export {
   Layout,
   SceneLayout,
@@ -114,4 +204,6 @@ export {
   RightSide,
   RightSideContent,
   LeftSide,
+  CircularProfileContainer,
+  ContactImageContainer,
 };

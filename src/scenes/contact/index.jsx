@@ -2,14 +2,14 @@ import {
   Column,
   LeftSide,
   RightSide,
-  RightSideContent,
+  ContactImageContainer,
   SceneLayout,
 } from "../../components/common/Layout";
 import PageTitle from "../../components/common/PageTitle";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import { texts } from "../../utils/texts";
 import Divider from "./../../components/common/Divider";
-import profile from "./../../assets/svg/contact.svg";
+import profile from "./../../assets/profile/Image-3.jpeg";
 import { Button, FormGroup, Input, Label, TextArea } from "./components/style";
 import { ValidationError } from "@formspree/react";
 import Toast from "./components/toast";
@@ -114,9 +114,9 @@ const Contact = ({ language }) => {
             />
           )}
 
-          <RightSideContent>
+          <ContactImageContainer>
             <img src={profile} alt="Magdalene Matey" />
-          </RightSideContent>
+          </ContactImageContainer>
         </RightSide>
         <LeftSide>
           <p>{texts[language].contact.text}</p>

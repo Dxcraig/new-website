@@ -1,13 +1,14 @@
 import articlePt from "../assets/articles/TCC.pdf"
-import ptcv from "../assets/cv/BeatrizNeaime_CV[PT].pdf"
-import encv from "../assets/cv/BeatrizNeaime_CV[EN].pdf"
+// CV files temporarily disabled - update when new CV is available
+// import ptcv from "../assets/cv/BeatrizNeaime_CV[PT].pdf"
+// import encv from "../assets/cv/BeatrizNeaime_CV[EN].pdf"
 
 export const texts = {
   pt: {
     cv: {
       title: "Currículo - Magdalene Matey",
       btn: "Currículo",
-      cv: ptcv
+      cv: null // CV temporarily disabled
     },
     landing: {
       subtitle: "Aspirante a Desenvolvedora Backend.",
@@ -26,7 +27,7 @@ export const texts = {
       text: "Olá, eu sou Magdalene Matey. Atualmente estou estudando desenvolvimento web backend, construindo habilidades em programação server-side e gerenciamento de banco de dados. Também estou cursando ciências biológicas, o que me dá uma mentalidade analítica única e experiência com resolução de problemas complexos. Além disso, trago perspectivas frescas dos meus estudos interdisciplinares que me ajudam a abordar desafios técnicos de múltiplos ângulos.",
       text2: "Minhas principais forças são resolução lógica de problemas, atenção aos detalhes e adaptabilidade a novas tecnologias. O que me diferencia é minha formação científica combinada com treinamento técnico - entendo tanto a abordagem metódica necessária para pesquisa quanto o pensamento sistemático exigido para código limpo e eficiente. Trago valor imediato oferecendo uma base sólida em pensamento analítico e um entusiasmo genuíno por aprender novas tecnologias rapidamente, o que significa que posso contribuir para projetos enquanto cresço continuamente minhas habilidades sem exigir supervisão extensa.",
       techIntro: "Aqui estão algumas tecnologias com as quais estou familiarizada:",
-      text3: "Atualmente estou buscando oportunidades de desenvolvimento backend de nível iniciante ou estágios onde possa aplicar minhas habilidades técnicas em crescimento. Adoraria discutir como minha formação única e vontade de aprender poderiam beneficiar sua equipe de desenvolvimento. Deixe-me mostrar como rigor científico encontra excelência em codificação.",
+      text3: "Atualmente estou buscando oportunidades de desenvolvimento backend de nível iniciante ou estágios onde possa aplicar minhas habilidades técnicas em crescimento. Adoraria discutir como minha formação única e vontade de aprender poderiam beneficiar sua equipe de desenvolvimento. Deixe-me mostrar como rigor científico encontra excelência em codificação. Entre em contato comigo para saber mais sobre minha jornada!",
       article: articlePt
     },
     skills: {
@@ -71,7 +72,7 @@ export const texts = {
     cv: {
       title: "Magdalene Matey's CV",
       btn: "CV",
-      cv: encv
+      cv: null // CV temporarily disabled
     },
     landing: {
       subtitle: "Aspiring Backend Developer.",
@@ -90,7 +91,7 @@ export const texts = {
       text: "Hi, I'm Magdalene Matey. I'm currently studying backend web development, building skills in server-side programming and database management. I'm also pursuing biological sciences, which gives me a unique analytical mindset and experience with complex problem-solving. Additionally, I bring fresh perspectives from my interdisciplinary studies that help me approach technical challenges from multiple angles.",
       text2: "My core strengths are logical problem-solving, attention to detail, and adaptability to new technologies. What sets me apart is my scientific background combined with technical training - I understand both the methodical approach needed for research and the systematic thinking required for clean, efficient code. I bring immediate value by offering a strong foundation in analytical thinking and a genuine enthusiasm for learning new technologies quickly, which means I can contribute to projects while continuously growing my skills without requiring extensive oversight.",
       techIntro: "Here are some technologies I'm familiar with:",
-      text3: "I'm currently seeking entry-level backend development opportunities or internships where I can apply my growing technical skills. I'd love to discuss how my unique background and eagerness to learn could benefit your development team. Let me show you how scientific rigor meets coding excellence.",
+      text3: "I'm currently seeking entry-level backend development opportunities or internships where I can apply my growing technical skills. I'd love to discuss how my unique background and eagerness to learn could benefit your development team. Let me show you how scientific rigor meets coding excellence. Feel free to reach out to learn more about my journey!",
       article: articlePt
     },
     skills: {

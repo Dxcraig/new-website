@@ -11,7 +11,7 @@ import PageTitle from "./../../components/common/PageTitle";
 import Divider from "./../../components/common/Divider";
 import { technologies } from "./../../utils/tech";
 import { colors } from "../../styles/colors";
-import profile from "../../assets/profile/profile.png";
+import profile from "../../assets/profile/Image-1.jpeg";
 import PDFViewer from "../../components/PDFViewer";
 import { motion } from "framer-motion";
 
