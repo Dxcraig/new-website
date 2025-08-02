@@ -1,9 +1,9 @@
-const url = "https://telegram-bot-nb4t.onrender.com";
+const FORMSPREE_URL = "https://formspree.io/f/meozlakk";
 
 const api = {
   sendMessage: async (data) => {
     try {
-      const response = await fetch(`${url}/sendMessage`, {
+      const response = await fetch(FORMSPREE_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
