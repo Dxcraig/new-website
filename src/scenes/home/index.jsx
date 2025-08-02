@@ -56,7 +56,7 @@ const Home = ({ setSelectedPage, language, selectedPage }) => {
             />
             <SocialMediaIcon
               icon={"fa-instagram"}
-              path={"https://www.instagram.com/beatrizneaime/"}
+              path={"https://www.instagram.com/_.mag.dalene/"}
             />
           </Row>
         </motion.div>
