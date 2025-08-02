@@ -33,17 +33,28 @@ export const texts = {
       title: "<habilidades/>",
       text: "Ao começar minha jornada no desenvolvimento backend, estou focada em construir tanto habilidades técnicas quanto fundamentos profissionais.",
       1: {
+        title: "resolução lógica de problemas",
+        text: "Aplico pensamento sistemático e metodologia científica para quebrar problemas complexos em partes gerenciáveis e encontrar soluções eficientes.",
+      },
+      2: {
+        title: "atenção aos detalhes",
+        text: "Minha formação científica me ensinou a importância da precisão e minuciosidade em cada aspecto do trabalho.",
+      },
+      3: {
+        title: "adaptabilidade a novas tecnologias",
+        text: "Demonstro entusiasmo genuíno por aprender rapidamente novas ferramentas e frameworks conforme a tecnologia evolui.",
+      },
+      4: {
         title: "aprendizado contínuo",
         text: "A tecnologia nunca para de se atualizar, é por isto que aqueles que trabalham com tecnologia não devem parar de se atualizar também.",
       },
-      2: {
+      5: {
         title: "comunicativa",
         text: "Não importa sua profissão, comunicação é sempre uma necessidade em qualquer ramo.",
       },
-      3: {
+      6: {
         title: "mente aberta",
         text: "Quando se trabalha para pessoas, é necessário aceitar novas ideias de clientes ou colegas de equipe e ser capaz de trabalhar nelas.",
-
       }
     },
     projects: {
@@ -86,17 +97,28 @@ export const texts = {
       title: "<skills/>",
       text: `As I begin my journey into backend development, I'm focused on building both technical skills and professional foundations. `,
       1: {
+        title: "logical problem-solving",
+        text: "I apply systematic thinking and scientific methodology to break down complex problems into manageable parts and find efficient solutions.",
+      },
+      2: {
+        title: "attention to detail",
+        text: "My scientific background has taught me the importance of precision and thoroughness in every aspect of work.",
+      },
+      3: {
+        title: "adaptability to new technologies",
+        text: "I demonstrate genuine enthusiasm for learning new tools and frameworks quickly as technology evolves.",
+      },
+      4: {
         title: "non-stop learning",
         text: "Technology never stops updating, that's why those who work with technology should not stop updating themselves either.",
       },
-      2: {
+      5: {
         title: "communicative",
         text: "No matter your profession, communication is always a need in any field.",
       },
-      3: {
+      6: {
         title: "open-minded",
         text: "When you work for people, you need to accept new ideas from clients or team members and be able to work on them.",
-
       }
     },
     projects: {
