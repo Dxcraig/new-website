@@ -48,7 +48,7 @@ const Home = ({ setSelectedPage, language, selectedPage }) => {
           >
             <SocialMediaIcon
               icon={"fa-github"}
-              path={"https://github.com/BeatrizNeaime"}
+              path={"https://github.com/Magdaleneeee"}
             />
             <SocialMediaIcon
               icon={"fa-linkedin-in"}
