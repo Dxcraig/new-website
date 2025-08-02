@@ -52,7 +52,7 @@ const Home = ({ setSelectedPage, language, selectedPage }) => {
             />
             <SocialMediaIcon
               icon={"fa-linkedin-in"}
-              path={"https://www.linkedin.com/in/beatriz-neaime-/"}
+              path={"https://www.linkedin.com/in/magdalene-matey-190b06353/"}
             />
             <SocialMediaIcon
               icon={"fa-instagram"}

@@ -22,7 +22,7 @@ This is a personal portfolio project built using React and Styled Components, de
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/BeatrizNeaime/new-website.git
+   git clone https://github.com/Magdaleneeee/new-website.git
    ```
 
 2. Install the dependencies
