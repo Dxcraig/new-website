@@ -32,7 +32,7 @@ const About = ({ language, selectedPage }) => {
       {desktop && (
         <RightSide>
           <RightSideContent>
-            <img src={profile} alt="Beatriz Neaime" />
+            <img src={profile} alt="Magdalene Matey" />
           </RightSideContent>
         </RightSide>
       )}
@@ -53,10 +53,10 @@ const About = ({ language, selectedPage }) => {
         <Divider width={"30%"} />
 
         <p>
-          {texts[language].about.text}{" "}
-          <a href={texts[language].about.link} className="empresa">
-            {texts[language].about.empresa}
-          </a>
+          {texts[language].about.text}
+        </p>
+
+        <p style={{ marginTop: "1rem" }}>
           {texts[language].about.text2}
         </p>
 

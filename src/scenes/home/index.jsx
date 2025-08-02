@@ -34,9 +34,9 @@ const Home = ({ setSelectedPage, language, selectedPage }) => {
           }}
         >
           <MainTitle>
-            {`<Beatriz`}
+            {`<Magdalene`}
             <br />
-            {`Neaime/>`}
+            {`Matey/>`}
           </MainTitle>
           <Subtitle>{texts[language].landing.subtitle}</Subtitle>
           <Row

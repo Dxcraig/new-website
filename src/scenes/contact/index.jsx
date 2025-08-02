@@ -115,7 +115,7 @@ const Contact = ({ language }) => {
           )}
 
           <RightSideContent>
-            <img src={profile} alt="Beatriz Neaime" />
+            <img src={profile} alt="Magdalene Matey" />
           </RightSideContent>
         </RightSide>
         <LeftSide>

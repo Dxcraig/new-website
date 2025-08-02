@@ -5,7 +5,7 @@ import encv from "../assets/cv/BeatrizNeaime_CV[EN].pdf"
 export const texts = {
   pt: {
     cv: {
-      title: "Currículo - Beatriz Neaime",
+      title: "Currículo - Magdalene Matey",
       btn: "Currículo",
       cv: ptcv
     },
@@ -23,11 +23,9 @@ export const texts = {
     },
     about: {
       title: "<sobre/>",
-      text: "Olá! Meu nome é Beatriz e sou Engenheira de Computação. Atualmente, estou cursando pós-graduação em Engenharia de Software, aprofundando meus conhecimentos e habilidades na área. Trabalho como Desenvolvedora Full Stack Pleno na",
-      empresa: " Sistema ESO",
-      link: "https://sistemaeso.com.br",
-      text2: ", onde tenho a oportunidade de criar e aprimorar soluções tecnológicas completas, desde a interface do usuário até a infraestrutura de servidores. Comecei a aprender desenvolvimento web durante a pandemia, através de cursos online para aprender o básico e aprimorar minhas habilidades, garantindo que aprendi o suficiente para seguir em frente e tentar as tecnologias mais recentes. Estou sempre em busca de novos desafios e oportunidades para aplicar e expandir meu conhecimento. Aqui estão algumas tecnologias com as quais estou familiarizada:",
-      text3: "Quer saber mais sobre minha jornada? Você pode baixar meu currículo clicando no botão abaixo.",
+      text: "Olá, eu sou Magdalene Matey. Atualmente estou estudando desenvolvimento web backend, construindo habilidades em programação server-side e gerenciamento de banco de dados. Também estou cursando ciências biológicas, o que me dá uma mentalidade analítica única e experiência com resolução de problemas complexos. Além disso, trago perspectivas frescas dos meus estudos interdisciplinares que me ajudam a abordar desafios técnicos de múltiplos ângulos.",
+      text2: "Minhas principais forças são resolução lógica de problemas, atenção aos detalhes e adaptabilidade a novas tecnologias. O que me diferencia é minha formação científica combinada com treinamento técnico - entendo tanto a abordagem metódica necessária para pesquisa quanto o pensamento sistemático exigido para código limpo e eficiente. Trago valor imediato oferecendo uma base sólida em pensamento analítico e um entusiasmo genuíno por aprender novas tecnologias rapidamente, o que significa que posso contribuir para projetos enquanto cresço continuamente minhas habilidades sem exigir supervisão extensa.",
+      text3: "Atualmente estou buscando oportunidades de desenvolvimento backend de nível iniciante ou estágios onde possa aplicar minhas habilidades técnicas em crescimento. Adoraria discutir como minha formação única e vontade de aprender poderiam beneficiar sua equipe de desenvolvimento. Deixe-me mostrar como rigor científico encontra excelência em codificação.",
       article: articlePt
     },
     skills: {
@@ -59,7 +57,7 @@ export const texts = {
   },
   en: {
     cv: {
-      title: "Beatriz Neaime's CV",
+      title: "Magdalene Matey's CV",
       btn: "CV",
       cv: encv
     },
@@ -77,11 +75,9 @@ export const texts = {
     },
     about: {
       title: "<about/>",
-      text: "Hello! My name is Beatriz and I am a Computer Engineer. I am currently pursuing a postgraduate degree in Software Engineering, furthering my knowledge and skills in the field. I work as a Mid-Level Full Stack Developer at",
-      empresa: " Sistema ESO",
-      link: "https://sistemaeso.com.br",
-      text2: ", where I have the opportunity to create and enhance complete technological solutions, from user interfaces to server infrastructure. I started learning web development during the pandemic, through online courses to learn the basics and enhance my skills, ensuring I learned enough to move forward and try the latest technologies. I am always looking for new challenges and opportunities to apply and expand my knowledge. Here are some technologies I am familiar with:",
-      text3: "Want to know more about my journey? You can download my CV by clicking the button below.",
+      text: "Hi, I'm Magdalene Matey. I'm currently studying backend web development, building skills in server-side programming and database management. I'm also pursuing biological sciences, which gives me a unique analytical mindset and experience with complex problem-solving. Additionally, I bring fresh perspectives from my interdisciplinary studies that help me approach technical challenges from multiple angles.",
+      text2: "My core strengths are logical problem-solving, attention to detail, and adaptability to new technologies. What sets me apart is my scientific background combined with technical training - I understand both the methodical approach needed for research and the systematic thinking required for clean, efficient code. I bring immediate value by offering a strong foundation in analytical thinking and a genuine enthusiasm for learning new technologies quickly, which means I can contribute to projects while continuously growing my skills without requiring extensive oversight.",
+      text3: "I'm currently seeking entry-level backend development opportunities or internships where I can apply my growing technical skills. I'd love to discuss how my unique background and eagerness to learn could benefit your development team. Let me show you how scientific rigor meets coding excellence.",
       article: articlePt
     },
     skills: {
