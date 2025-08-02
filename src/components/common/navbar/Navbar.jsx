@@ -24,7 +24,7 @@ const Navbar = ({ selectedPage, setSelectedPage, language, setLanguage }) => {
             color: "inherit",
           }}
         >
-          <NavBrand>{"<BN/>"}</NavBrand>
+          <NavBrand>{"<MM/>"}</NavBrand>
         </AnchorLink>
         {desktop && (
           <NavLinkContainer>
