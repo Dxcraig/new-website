@@ -3,6 +3,7 @@ import { Layout } from "./components/common/Layout";
 import Navbar from "./components/common/navbar/Navbar";
 import Home from "./scenes/home";
 import About from "./scenes/about";
+import Bio from "./scenes/bio";
 import { GlobalStyle } from "./GlobalStyle";
 import { motion } from 'framer-motion';
 import Skills from './scenes/skills/index';
@@ -52,6 +53,19 @@ function App() {
         onViewportEnter={() => setSelectedPage("about")}
       >
         <About
+          language={language}
+          selectedPage={selectedPage}
+        />
+      </motion.div>
+
+      <Divider />
+
+      <motion.div
+        margin="0 0 -200px 0"
+        amount="all"
+        onViewportEnter={() => setSelectedPage("bio")}
+      >
+        <Bio
           language={language}
           selectedPage={selectedPage}
         />

@@ -41,6 +41,12 @@ const Navbar = ({ selectedPage, setSelectedPage, language, setLanguage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
+              page="bio"
+              label={language === "pt" ? "biografia" : "bio"}
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
               page="skills"
               label={language === "pt" ? "habilidades" : "skills"}
               selectedPage={selectedPage}

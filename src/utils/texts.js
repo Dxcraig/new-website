@@ -18,6 +18,7 @@ export const texts = {
     navbar: {
       home: "Início",
       about: "Sobre",
+      bio: "Biografia",
       skills: "Habilidades",
       projects: "Projetos",
       contact: "Contato",
@@ -29,6 +30,12 @@ export const texts = {
       techIntro: "Aqui estão algumas tecnologias com as quais estou familiarizada:",
       text3: "Atualmente estou buscando oportunidades de desenvolvimento backend de nível iniciante ou estágios onde possa aplicar minhas habilidades técnicas em crescimento. Adoraria discutir como minha formação única e vontade de aprender poderiam beneficiar sua equipe de desenvolvimento. Deixe-me mostrar como rigor científico encontra excelência em codificação. Entre em contato comigo para saber mais sobre minha jornada!",
       article: articlePt
+    },
+    bio: {
+      title: "<biografia/>",
+      text: "Magdalene Matey é uma aspirante a desenvolvedora backend e estudante de ciências biológicas que traz uma perspectiva interdisciplinar única para o desenvolvimento de software. Atualmente construindo expertise em programação server-side e gerenciamento de banco de dados enquanto prossegue seus estudos em ciências biológicas, Magdalene combina rigor analítico com inovação técnica.",
+      text2: "Seu objetivo é aproveitar sua formação científica e habilidades de programação em crescimento para contribuir com projetos tecnológicos significativos, particularmente aqueles na interseção entre ciência e desenvolvimento de software. Ela aspira se juntar a uma equipe de desenvolvimento dinâmica onde possa crescer como engenheira backend enquanto aplica sua abordagem metódica de resolução de problemas para criar soluções robustas e escaláveis.",
+      text3: "Magdalene demonstrou com sucesso sua capacidade de dominar conceitos técnicos complexos através de seus estudos simultâneos em ciências biológicas e desenvolvimento backend, mostrando sua agilidade de aprendizado excepcional e habilidades de gerenciamento de tempo. Ela também desenvolveu fortes capacidades analíticas e de pesquisa através de seu treinamento científico, que se traduzem diretamente em debugging, testes e otimização sistemática de código. Sua abordagem interdisciplinar permite que ela traga perspectivas frescas para desafios técnicos, combinando a precisão da metodologia científica com a criatividade necessária para soluções de software inovadoras."
     },
     skills: {
       title: "<habilidades/>",
@@ -82,6 +89,7 @@ export const texts = {
     navbar: {
       home: "Home",
       about: "About",
+      bio: "Bio",
       skills: "Skills",
       projects: "Projects",
       contact: "Contact",
@@ -93,6 +101,12 @@ export const texts = {
       techIntro: "Here are some technologies I'm familiar with:",
       text3: "I'm currently seeking entry-level backend development opportunities or internships where I can apply my growing technical skills. I'd love to discuss how my unique background and eagerness to learn could benefit your development team. Let me show you how scientific rigor meets coding excellence. Feel free to reach out to learn more about my journey!",
       article: articlePt
+    },
+    bio: {
+      title: "<bio/>",
+      text: "Magdalene Matey is an aspiring backend developer and biological sciences student who brings a unique interdisciplinary perspective to software development. Currently building expertise in server-side programming and database management while pursuing her studies in biological sciences, Magdalene combines analytical rigor with technical innovation.",
+      text2: "Her goal is to leverage her scientific background and growing programming skills to contribute to meaningful technology projects, particularly those at the intersection of science and software development. She aspires to join a dynamic development team where she can grow as a backend engineer while applying her methodical problem-solving approach to create robust, scalable solutions.",
+      text3: "Magdalene has successfully demonstrated her ability to master complex technical concepts through her concurrent studies in both biological sciences and backend development, showcasing her exceptional learning agility and time management skills. She has also developed strong analytical and research capabilities through her scientific training, which directly translate to debugging, testing, and systematic code optimization. Her interdisciplinary approach allows her to bring fresh perspectives to technical challenges, combining the precision of scientific methodology with the creativity required for innovative software solutions."
     },
     skills: {
       title: "<skills/>",
