@@ -1,15 +1,7 @@
 import articlePt from "../assets/articles/TCC.pdf"
-// CV files temporarily disabled - update when new CV is available
-// import ptcv from "../assets/cv/BeatrizNeaime_CV[PT].pdf"
-// import encv from "../assets/cv/BeatrizNeaime_CV[EN].pdf"
 
 export const texts = {
   pt: {
-    cv: {
-      title: "Currículo - Magdalene Matey",
-      btn: "Currículo",
-      cv: null // CV temporarily disabled
-    },
     landing: {
       subtitle: "Aspirante a Desenvolvedora Backend.",
       contact: "Fale Comigo",
@@ -76,11 +68,6 @@ export const texts = {
     }
   },
   en: {
-    cv: {
-      title: "Magdalene Matey's CV",
-      btn: "CV",
-      cv: null // CV temporarily disabled
-    },
     landing: {
       subtitle: "Aspiring Backend Developer.",
       contact: "Contact Me",

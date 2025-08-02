@@ -12,20 +12,10 @@ import Divider from "./../../components/common/Divider";
 import { technologies } from "./../../utils/tech";
 import { colors } from "../../styles/colors";
 import profile from "../../assets/profile/Image-1.jpeg";
-import PDFViewer from "../../components/PDFViewer";
 import { motion } from "framer-motion";
 
 const About = ({ language, selectedPage }) => {
   const desktop = useMediaQuery("(min-width: 1279px)");
-
-  const downloadPDF = (article) => {
-    const link = document.createElement("a");
-    link.href = texts[language].cv.cv;
-    link.download = texts[language].cv.title;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   return (
     <SceneLayout id="about">
@@ -86,9 +76,53 @@ const About = ({ language, selectedPage }) => {
 
         <p style={{ marginTop: "1rem" }}>{texts[language].about.text3}</p>
 
-        <PDFViewer onClick={() => downloadPDF(texts[language].about.article)}>
-          <i className="fa-regular fa-file-pdf"></i> {texts[language].cv.btn}
-        </PDFViewer>
+        {/* Pitch Video Placeholder */}
+        <div
+          style={{
+            marginTop: "2rem",
+            padding: "2rem",
+            border: "2px dashed #ccc",
+            borderRadius: "10px",
+            textAlign: "center",
+            backgroundColor: "#f9f9f9",
+            minHeight: "200px",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              fontSize: "3rem",
+              color: "#999",
+              marginBottom: "1rem",
+            }}
+          >
+            🎥
+          </div>
+          <h3
+            style={{
+              margin: "0 0 0.5rem 0",
+              color: "#666",
+              fontSize: "1.2rem",
+            }}
+          >
+            {language === "en" ? "Pitch Video" : "Vídeo de Apresentação"}
+          </h3>
+          <p
+            style={{
+              margin: "0",
+              color: "#888",
+              fontSize: "0.9rem",
+            }}
+          >
+            {language === "en" 
+              ? "Coming soon - A personal introduction video showcasing my journey and aspirations"
+              : "Em breve - Um vídeo de apresentação pessoal mostrando minha jornada e aspirações"
+            }
+          </p>
+        </div>
       </LeftSide>
     </SceneLayout>
   );

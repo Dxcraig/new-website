@@ -81,13 +81,22 @@ const Contact = ({ language }) => {
       <div
         style={{
           display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
+          justifyContent: desktop ? "space-between" : "center",
+          alignItems: desktop ? "flex-start" : "center",
           width: "100%",
           flexDirection: desktop ? "row" : "column",
+          gap: desktop ? "2rem" : "1rem",
+          maxWidth: "1200px",
+          margin: "0 auto",
         }}
       >
-        <RightSide>
+        <RightSide style={{ 
+          order: desktop ? 2 : 1,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: desktop ? "flex-start" : "center",
+          flexShrink: 0
+        }}>
           {state.succeeded && (
             <Toast
               title={language === "en" ? "Success!" : "Sucesso!"}
@@ -118,13 +127,23 @@ const Contact = ({ language }) => {
             <img src={profile} alt="Magdalene Matey" />
           </ContactImageContainer>
         </RightSide>
-        <LeftSide>
+        <LeftSide style={{ 
+          order: desktop ? 1 : 2,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: desktop ? "flex-start" : "center",
+          alignItems: desktop ? "flex-start" : "center",
+          textAlign: desktop ? "left" : "center",
+          flex: 1
+        }}>
           <p>{texts[language].contact.text}</p>
           <form
             id="form"
             onSubmit={handleSubmit}
             style={{
               margin: "2rem 0",
+              width: "100%",
+              maxWidth: desktop ? "500px" : "100%",
             }}
           >
             {" "}
